@@ -100,12 +100,12 @@ public class Main {
 <br>   
 <br>   
 
-## 다른 사람의 풀이
+## 주의사항
 
 <br>   
 
 #### Arrays.sort()를 이용하는 경우도 있었다. 다만 시간복잡도가 O(nlogn)임을 명심하자.
-#### 세번째 배열에 저장하지 않고 ArrayList나 StringBuilder에 덧붙이는 경우도 있었다.
+#### 세번째 배열에 저장하지 않고 ArrayList나 StringBuilder에 덧붙이는 풀이도 있었다.
 
 <br>   
 <br>   
