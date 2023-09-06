@@ -6,10 +6,7 @@ https://www.acmicpc.net/problem/1940
 
 ![image](https://github.com/last-child/CODING_TEST/assets/98595054/893111ab-06e6-4b01-83ff-7d1c164d1b9b)
 
-<br>   
-<br>   
-
-## 내 풀이
+## 
 
 <br>   
 
@@ -25,26 +22,30 @@ import java.util.StringTokenizer;
 public class Main {
 
     public static void main(String[] args) throws IOException {
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        // 두 정수 N, M을 입력받고, 크기 N인 배열을 선언한다.
         int N = Integer.parseInt(br.readLine());
         int M = Integer.parseInt(br.readLine());
-
         int[] intArray = new int[N];
+
+        // 두 개의 포인터를 양끝으로 이동시킨다.
         int startIndex = 0;
         int endIndex = N-1;
 
-        // N개만큼 배열 원소 입력받기기
+        // 배열에 원소 N개를 저장한다.
         StringTokenizer st= new StringTokenizer(br.readLine());     
         for(int i=0; i<N; i++) {
             intArray[i] = Integer.parseInt(st.nextToken());
         }
 
-        // 배열 정렬 및 sum, count 변수 초기화
+        // 배열을 정렬하고, sum, count를 초기화한다.
         Arrays.sort(intArray);
         int sum = intArray[startIndex] + intArray[endIndex];
         int count = 0;
 
-        // 두 개의 포인터 탐색
+        // 두 개의 포인터를 이동시키며 배열을 탐색한다.
         while(startIndex < endIndex) {
             if(sum > M) {
                 endIndex--;
@@ -55,7 +56,6 @@ public class Main {
                 startIndex++;
                 endIndex--;
             }
-        	
             sum = intArray[startIndex] + intArray[endIndex];
         }
         
@@ -80,9 +80,8 @@ public class Main {
 #### 두 원소의 합이 목표치(M)와 같다면 count를 증가시키며, 두 포인터를 이동시킨다.
 
 <br>   
-<br>   
 
-## 주의사항
+## 
 
 <br>   
 
