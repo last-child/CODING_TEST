@@ -92,3 +92,5 @@ public class Main {
 
 #### 한 줄에 여러 개의 데이터를 입력받을 때 StringTokenizer의 nextToken()을 활용하고,
 #### 한 줄에 하나의 데이터를 입력받을 때 BufferedReader의 readLine()만 활용해도 된다.
+
+<br>   
