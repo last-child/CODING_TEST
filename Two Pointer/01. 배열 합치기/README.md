@@ -2,28 +2,13 @@ https://www.acmicpc.net/problem/11728
 
 <br>   
 
-## 문제
-
-#### 정렬되어있는 두 배열 A와 B가 주어진다. 두 배열을 합친 다음 정렬해서 출력하는 프로그램을 작성하시오.
+![image](https://github.com/last-child/CODING_TEST/assets/98595054/28efd198-7ad2-472a-8269-e5a39446f068)
 
 <br>   
 
-## 입력
-
-#### 첫째 줄에 배열 A의 크기 N, 배열 B의 크기 M이 주어진다. (1 ≤ N, M ≤ 1,000,000)
-#### 둘째 줄에는 배열 A의 내용이, 셋째 줄에는 배열 B의 내용이 주어진다. 배열에 들어있는 수는 절댓값이 109보다 작거나 같은 정수이다.
+![image](https://github.com/last-child/CODING_TEST/assets/98595054/31165c88-9989-4efc-b912-1765ec64ae4f)
 
 <br>   
-
-## 출력
-
-#### 첫째 줄에 두 배열을 합친 후 정렬한 결과를 출력한다.
-
-<br>   
-<br>   
-
-## 내 풀이
-
 <br>   
 
 ```java
@@ -98,14 +83,12 @@ public class Main {
 #### 두 포인터가 모두 순회를 마칠 때, 즉 세번째 배열이 꽉 차 있으면 반복문을 종료시킨다.
 
 <br>   
-<br>   
 
-## 주의사항
+##  
 
-<br>   
+<br>
 
 #### Arrays.sort()를 이용하는 경우도 있었다. 다만 시간복잡도가 O(nlogn)임을 명심하자.
 #### 세번째 배열에 저장하지 않고 ArrayList나 StringBuilder에 덧붙이는 풀이도 있었다.
 
-<br>   
 <br>   
